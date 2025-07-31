@@ -1,4 +1,3 @@
-// src/components/WelcomeMessage.jsx
 
 function WelcomeMessage() {
     return (
