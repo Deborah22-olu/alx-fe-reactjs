@@ -1,5 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import BlogPost from "./components/BlogPost";
+
+// inside <Routes> in App.jsx
+<Route path="/blog/:id" element={<BlogPost />} />
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Profile from "./components/Profile";
